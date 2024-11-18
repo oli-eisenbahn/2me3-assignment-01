@@ -30,7 +30,7 @@ public class Point extends AbstractElement implements CollisionDetector{
         return y;
     }
 
-    public int getNumOfInstances()
+    public static int getNumOfInstances()
     {
         return numberOfInstances;
     }

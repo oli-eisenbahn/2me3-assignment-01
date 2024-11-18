@@ -30,7 +30,7 @@ public class LineSeg extends AbstractElement implements CollisionDetector{
         return end;
     }
 
-    public int getNumOfInstances() 
+    public static int getNumOfInstances() 
     {
         return numberOfInstances;
     }

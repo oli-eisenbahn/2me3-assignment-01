@@ -1,8 +1,8 @@
 public abstract class AbstractElement {
     
-    private int numberOfInstances;
+    private static int numberOfInstances;
 
-    public int getNumOfInstances() 
+    public static int getNumOfInstances() 
     {
         return numberOfInstances;
     }

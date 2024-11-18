@@ -44,7 +44,7 @@ public class Rectangle extends AbstractElement implements CollisionDetector {
         return bottom;
     }
 
-    public int getNumOfInstances() 
+    public static int getNumOfInstances() 
     {
         return numberOfInstances;
     }

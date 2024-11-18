@@ -28,7 +28,7 @@ public class Circle extends AbstractElement implements CollisionDetector {
         return radius;
     }
 
-    public int getNumOfInstances() 
+    public static int getNumOfInstances() 
     {
         return numberOfInstances;
     }
